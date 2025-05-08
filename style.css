@@ -1,9 +1,39 @@
-div > span {
-  background-color: red;
-  display: block;
-  font-size: 24px;
-  color: white;
-  text-align: center;
-  margin-top: 3px;
-  margin-bottom: 3px;
+@font-face {
+  font-family: "Stigsa";
+  src: url(./fonts/FontsFree-Net-StigsaDisplay-Medium.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+.font-my {
+  font-family: "Stigsa", sans-serif;
+}
+.navbar-brand {
+  text-transform: none;
+  letter-spacing: 5px;
+  font-size: 2rem;
+}
+
+.bg-chef,
+.bg-omakase,
+.bg-bar,
+.bg-ingredients,
+.bg-crafts {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-chef {
+  background-image: url(./images/top_menu_EXECUTIVECHEF.jpg);
+}
+.bg-omakase {
+  background-image: url(./images/top_menu_OMAKASECOUNTER.jpg);
+}
+.bg-bar {
+  background-image: url(./images/top_menu_BAR.jpg);
+}
+.bg-ingredients {
+  background-image: url(./images/top_menu_INGREDIENTS.jpg);
+}
+.bg-crafts {
+  background-image: url(./images/top_menu_CRAFTS.jpg);
 }
